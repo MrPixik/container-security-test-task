@@ -28,6 +28,8 @@ func main() {
 		signal.Notify(sigCh, syscall.SIGINT, syscall.SIGTERM)
 		<-sigCh
 
+		p.Stop()
+
 		if err := serv.Shutdown(context.Background()); err != nil {
 			log.Error("server shutdown error: %v", "error message", err)
 		}
