@@ -1,5 +1,5 @@
 # My Worker Pool
-Тестовое задание для команды Kaspersky Container Security в Kaspersky Safeboard
+Тестовое задание для команды Kaspersky Container Security в Kaspersky Safeboard.
 Так же оно находится тут: 
 ## В рамках тестового задания было реализовано API для обработки задач с использованием worker pool
 ## 1. Worker Pool
